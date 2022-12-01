@@ -1,0 +1,90 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+.signup-form .form{
+    margin-top: 5vh;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+.signup-form .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-form .heading .before,
+.signup-form .heading .after{
+    height: 2px;
+    background-color: rgb(184, 184, 184);
+    width: calc(60px + 2vw);
+}
+.signup-form .heading h2{
+    margin: 0 5px;
+}
+form input{
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid rgb(36, 35, 35);
+}
+.name-image{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.email input,
+.password input,
+.confirm-password input{
+    width: 100%;
+}
+.group{
+    margin: 5px 0;
+}
+
+.image img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+.image label{
+    margin-left: 50px;
+}
+.image input#file{
+    display: none;
+}
+.check{
+    display: flex;
+    align-items: center;
+}
+.check input{
+    margin-right: 5px;
+}
+input{
+    padding-left: 15px;
+}
+.signup{
+    border: none;
+    background-color: #28b485;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+}
+p.goto-signin{
+    margin-top: 10px;
+    font-weight: bold;
+}
+p.goto-signin a{
+    color: #28b485 !important;
+    cursor: pointer;
+}

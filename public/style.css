@@ -1,0 +1,14 @@
+.card-group{
+    display: flex;
+}
+.card{
+    height: 300px;
+    width: 400px;
+    background-color: red;
+    margin: 0 10px;
+}
+.student{
+    background-color: green;
+    height: 180px;
+    width: 500px;
+}

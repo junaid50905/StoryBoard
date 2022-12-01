@@ -1,0 +1,55 @@
+.story{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: -3px 4px 5px -2px rgba(0,0,0,0.75);
+    margin: 10px 0;
+}
+.story .story-top{
+    display: flex;
+}
+.story .story-top img{
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.story-heading-name-date h4{
+    font-weight: 600;
+}
+.name-date .name{
+    margin-right: 50px;
+    color: rgb(158, 158, 158);
+}
+.name-date .date{
+    color: rgb(158, 158, 158);
+}
+.story-content::before,
+.story-content::after{
+    display: block;
+    content: '';
+    border: 1px solid rgb(187, 186, 186);
+}
+.vote{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 20px;
+}
+.vote .up-down-icon{
+    color: #28b485;
+    cursor: pointer;
+}
+.story-vote-more{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.story-vote-more .more button{
+    border: none;
+    background-image: linear-gradient(to right top, #28b485, #31b783, #3abb81, #42be7f, #4ac17d, #51c47b, #58c679, #5fc977, #67cc75, #6ecf73, #76d271, #7ed56f);
+    padding: 5px 10px;
+    color: white;
+    margin-top: 10px;
+    border-radius: 30px;
+}

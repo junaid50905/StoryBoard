@@ -1,0 +1,39 @@
+nav{
+     background-color: #28b485;
+}
+.signup{
+    margin-right: 10px;
+}
+a.signup,
+a.signin{
+    background-color: white;
+    font-weight: 500;
+    border-radius: 30px;
+    width: calc(3rem + 5vw);
+    text-align: center;
+}
+.logged_in_user_mail{
+    background-color: rebeccapurple;
+    color: white;
+    cursor: pointer;
+    margin: 10px 0 0 10px;
+    padding: 5px;
+}
+.logged_in_user_cart{
+    width: 200px;
+    position: absolute;
+    right: 20%;
+}
+.logged_in_user_cart div{
+    background-color: #55aa8e;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.logged_in_user_cart div a{
+    color: white;
+    text-decoration: none;
+}
+.logged_in_user_cart div a:hover{
+    color: rgb(206, 206, 206);
+}

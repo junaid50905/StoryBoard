@@ -1,0 +1,24 @@
+.Catagories{
+    padding-top: 10px;
+}
+.catagories-nav ul{
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px 0 15px 5px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: -3px 4px 5px -2px rgb(187, 186, 186);
+    border-radius: 5px;
+}
+.catagories-nav ul li{
+    margin-right: 20px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.catagories-nav ul li a{
+    color: rgb(110, 110, 110);
+
+}
